@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-    url: https://github.com/UV-CDAT/cdtime/archive/v2.10.tar.gz
+  url: https://github.com/UV-CDAT/cdtime/archive/v2.10.tar.gz
   sha256: ea93c7f5a02bf90d2df108f9e843b81793cb9fc3cabee86ecacbf3f8e29daca3
 
 build:
