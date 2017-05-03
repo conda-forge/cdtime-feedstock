@@ -1,14 +1,13 @@
 {% set name = "cdtime" %}
-{% set version = "2.8" %}
+{% set version = "2.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/UV-CDAT/cdtime/archive/master.tar.gz
-  sha256: 8b905cbbe00dc7243c23e5654cf10195cd1a888d9fe4392d14fb148d1e37d3c6
+    url: https://github.com/UV-CDAT/cdtime/archive/v2.10.tar.gz
+  sha256: ea93c7f5a02bf90d2df108f9e843b81793cb9fc3cabee86ecacbf3f8e29daca3
 
 build:
   number: 0
