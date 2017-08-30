@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/UV-CDAT/cdtime/archive/2.12.tar.gz
-  sha256: 2770fbecac315ec190cecabc9582ea40f9000703aba7ead3e64012ef73c8b487
+  sha256: 6493d778bd0955bbc70666b76b825a660e5794dc65da31f821d501856939aa9a
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win] 
 
 requirements:
