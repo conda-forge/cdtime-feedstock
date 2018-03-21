@@ -1,5 +1,5 @@
 {% set name = "cdtime" %}
-{% set version = "2.12" %}
+{% set version = "V3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ source:
   sha256: 77f9c48ca411d17c31ea64e0b78cfe23fc137d88d10daf9fef987e8afc981565
 
 build:
-  number: 2
+  number: 0
   skip: True  # [win] 
 
 requirements:
