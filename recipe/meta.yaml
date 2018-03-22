@@ -1,16 +1,16 @@
 {% set name = "cdtime" %}
-{% set version = "2.12" %}
+{% set version = "3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/UV-CDAT/cdtime/archive/v2.12.tar.gz
-  sha256: 77f9c48ca411d17c31ea64e0b78cfe23fc137d88d10daf9fef987e8afc981565
+  url: https://github.com/cdat/cdtime/archive/V{{ version }}.tar.gz
+  sha256: fd7d47942a33b8ed9ef40a58430f7fc70f49bd86ace0e52f3fb4d4ea47a30c59
 
 build:
-  number: 2
+  number: 0
   skip: True  # [win] 
 
 requirements:
@@ -18,7 +18,7 @@ requirements:
     - python
     - setuptools
     - libcdms
-    - numpy x.x
+    - numpy 1.11*
     - cdat_info
     - libdrs_f
     - gcc
@@ -28,7 +28,7 @@ requirements:
     - libcdms
     - cdat_info
     - libdrs_f
-    - numpy x.x
+    - numpy >=1.11
 
 test:
   imports:
