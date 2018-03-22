@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/cdat/cdtime/archive/V{{  version }}.tar.gz
+  url: https://github.com/cdat/cdtime/archive/V{{ version }}.tar.gz
   sha256: fd7d47942a33b8ed9ef40a58430f7fc70f49bd86ace0e52f3fb4d4ea47a30c59
 
 build:
