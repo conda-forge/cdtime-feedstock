@@ -17,14 +17,16 @@ simulation. Basic arithmetic and comparison operators are also available.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cdtime-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cdtime-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cdtime-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cdtime-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cdtime-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cdtime-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/cdtime-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cdtime-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cdtime/badges/version.svg)](https://anaconda.org/conda-forge/cdtime)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cdtime/badges/downloads.svg)](https://anaconda.org/conda-forge/cdtime)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cdtime-green.svg)](https://anaconda.org/conda-forge/cdtime) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cdtime.svg)](https://anaconda.org/conda-forge/cdtime) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cdtime.svg)](https://anaconda.org/conda-forge/cdtime) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cdtime.svg)](https://anaconda.org/conda-forge/cdtime) |
 
 Installing cdtime
 =================

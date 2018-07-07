@@ -10,25 +10,27 @@ source:
   sha256: fd7d47942a33b8ed9ef40a58430f7fc70f49bd86ace0e52f3fb4d4ea47a30c59
 
 build:
-  number: 0
-  skip: True  # [win] 
+  number: 1
+  skip: True  # [win]
 
 requirements:
   build:
+    - {{ compiler('c') }}
+    - {{ compiler('fortran') }}
+  host:
     - python
     - setuptools
     - libcdms
-    - numpy 1.11*
+    - numpy
     - cdat_info
     - libdrs_f
-    - gcc
   run:
     - python
     - setuptools
     - libcdms
     - cdat_info
     - libdrs_f
-    - numpy >=1.11
+    - {{ pin_compatible('numpy') }}
 
 test:
   imports:
@@ -37,11 +39,10 @@ test:
 about:
   home: http://uvcdat.llnl.gov/documentation/cdms/cdms_3.html
   license: 'CCLRC'
-  license_file: 'LICENSE'
   summary: 'Climate calendar manipulation tools'
   description: |
-      The cdtime module contains functions for converting between 
-      these forms, based on the common calendars used in climate 
+      The cdtime module contains functions for converting between
+      these forms, based on the common calendars used in climate
       simulation. Basic arithmetic and comparison operators are also available.
   dev_url: https://github.com/UV-CDAT/cdtime
 
