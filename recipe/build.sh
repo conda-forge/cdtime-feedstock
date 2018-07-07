@@ -9,4 +9,3 @@ if [ `uname` == Linux ]; then
 else
     ${PYTHON} setup.py install
 fi
-if [ `uname` == Darwin ]; then install_name_tool -change /System/Library/Frameworks/Python.framework/Versions/2.7/Python @rpath/libpython2.7.dylib ${SP_DIR}/pycf/*.so ; fi
