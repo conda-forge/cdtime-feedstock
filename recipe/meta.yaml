@@ -37,9 +37,9 @@ test:
     - cdtime
 
 about:
-  home: http://cdat.llnl.gov/documentation/cdms/cdms_3.html
-  license: 'CCLRC'
-  summary: 'Climate calendar manipulation tools'
+  home:  http://gitub.com/CDAT/cdtime
+  license: '3-Clause BSD'
+  license_file: 'bsd-3-clause.txt'
   description: |
       The cdtime module contains functions for converting between
       these forms, based on the common calendars used in climate
