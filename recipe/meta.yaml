@@ -7,16 +7,17 @@ package:
 
 source:
   url: https://github.com/cdat/cdtime/archive/v{{ version }}.tar.gz
-  sha256: 862c6711bd1441ad9874115185eef52293b4edd80fa64665ff27f46bd191cb28
+  sha256: 421e54cda7c09ada6cb82d278423865bef726b24bb1db97469d0026343f61c24
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('fortran') }}
+
   host:
     - python
     - setuptools
@@ -24,6 +25,7 @@ requirements:
     - numpy
     - cdat_info
     - libdrs_f
+
   run:
     - python
     - setuptools
