@@ -7,7 +7,7 @@ Package license: 3-Clause BSD
 
 Feedstock license: BSD 3-Clause
 
-Summary: 
+Summary: Climate calendar manipulation tools
 
 The cdtime module contains functions for converting between
 these forms, based on the common calendars used in climate
