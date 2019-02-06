@@ -1,5 +1,5 @@
 {% set name = "cdtime" %}
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/cdat/cdtime/archive/v{{ version }}.tar.gz
-  sha256: 421e54cda7c09ada6cb82d278423865bef726b24bb1db97469d0026343f61c24
+  sha256: 2e8e4df97762fd167e028aa9afcb588f90cb9c8c90e299da439c1277bd96d723
 
 build:
-  number: 1
+  number: 0
   skip: True  # [win]
 
 requirements:
