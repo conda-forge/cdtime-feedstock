@@ -17,6 +17,7 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('fortran') }}
+
   host:
     - python  {{ python }}
     - setuptools
@@ -24,6 +25,7 @@ requirements:
     - numpy
     - cdat_info
     - libdrs_f
+
   run:
     - python  {{ python }}
     - setuptools
@@ -45,6 +47,7 @@ about:
         The cdtime module contains functions for converting between
         these forms, based on the common calendars used in climate
         simulation. Basic arithmetic and comparison operators are also available.
+
 
 extra:
   recipe-maintainers:
