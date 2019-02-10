@@ -13,7 +13,6 @@ The cdtime module contains functions for converting between
 these forms, based on the common calendars used in climate
 simulation. Basic arithmetic and comparison operators are also available.
 
-
 Current build status
 ====================
 
