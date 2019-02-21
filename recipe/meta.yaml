@@ -10,7 +10,7 @@ source:
   sha256: e6aa613bb509a67f8dc0050d68ffc86c33099e19cfb2b64374b53131b9646e52
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
 
 requirements:
@@ -23,14 +23,14 @@ requirements:
     - setuptools
     - libcdms
     - numpy
-    - cdat_info
+    - cdat_info >=8.1.1
     - libdrs_f
 
   run:
     - python  {{ python }}
     - setuptools
     - libcdms
-    - cdat_info
+    - cdat_info >=8.1.1
     - libdrs_f
     - {{ pin_compatible('numpy') }}
 
