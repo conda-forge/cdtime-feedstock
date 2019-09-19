@@ -10,7 +10,7 @@ source:
   sha256: e6aa613bb509a67f8dc0050d68ffc86c33099e19cfb2b64374b53131b9646e52
 
 build:
-  number: 3
+  number: 4
   skip: True  # [win]
 
 requirements:
@@ -53,3 +53,6 @@ extra:
   recipe-maintainers:
     - dnadeau4
     - doutriaux1
+    - downiec
+    - muryanto1
+    - jasonb5
