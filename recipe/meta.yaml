@@ -10,7 +10,7 @@ source:
   sha256: e6aa613bb509a67f8dc0050d68ffc86c33099e19cfb2b64374b53131b9646e52
 
 build:
-  number: 4
+  number: 5
   skip: True  # [win]
 
 requirements:
@@ -19,7 +19,7 @@ requirements:
     - {{ compiler('fortran') }}
 
   host:
-    - python  {{ python }}
+    - python
     - setuptools
     - libcdms
     - numpy
@@ -27,9 +27,10 @@ requirements:
     - libdrs_f
 
   run:
-    - python  {{ python }}
+    - python
     - setuptools
     - libcdms
+    - libnetcdf
     - cdat_info >=8.1.1
     - libdrs_f
     - {{ pin_compatible('numpy') }}
@@ -56,3 +57,4 @@ extra:
     - downiec
     - muryanto1
     - jasonb5
+    - xylar
