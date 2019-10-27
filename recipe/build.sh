@@ -5,7 +5,6 @@ export LDFLAGS="-L${PREFIX}/lib ${LDFLAGS}"
 
 if [ `uname` == Linux ]; then
     export LDSHARED="$CC -shared -pthread" 
-    python setup.py install
-else
-    ${PYTHON} setup.py install
 fi
+
+${PYTHON} setup.py install

@@ -1,8 +1,7 @@
-{% set name = "cdtime" %}
 {% set version = "3.1.2" %}
 
 package:
-  name: {{ name|lower }}
+  name: cdtime
   version: {{ version }}
 
 source:
@@ -23,6 +22,7 @@ requirements:
     - setuptools
     - libcdms
     - numpy
+    - libnetcdf
     - cdat_info >=8.1.1
     - libdrs_f
 
@@ -41,7 +41,7 @@ test:
 
 about:
     home:  http://gitub.com/CDAT/cdtime
-    license: '3-Clause BSD'
+    license: 'BSD-3-Clause'
     license_file: 'bsd-3-clause.txt'
     summary: 'Climate calendar manipulation tools'
     description: |
