@@ -1,4 +1,4 @@
-{% set version = "3.1.2" %}
+{% set version = "3.1.3" %}
 
 package:
   name: cdtime
@@ -6,24 +6,24 @@ package:
 
 source:
   url: https://github.com/cdat/cdtime/archive/v{{ version }}.tar.gz
-  sha256: e6aa613bb509a67f8dc0050d68ffc86c33099e19cfb2b64374b53131b9646e52
+  sha256: 121b9e855c3889d145bc9730d36403df6fd1b7677e99076556e763c3e53a59d5
 
 build:
-  number: 8
+  number: 0
   skip: True  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('fortran') }}
-
   host:
     - python
     - setuptools
+    - cython
     - libcdms
     - numpy
     - libnetcdf
-    - cdat_info >=8.1.1
+    - cdat_info
     - libdrs_f
 
   run:
@@ -31,7 +31,7 @@ requirements:
     - setuptools
     - libcdms
     - libnetcdf
-    - cdat_info >=8.1.1
+    - cdat_info
     - libdrs_f
     - {{ pin_compatible('numpy') }}
 
@@ -48,7 +48,6 @@ about:
         The cdtime module contains functions for converting between
         these forms, based on the common calendars used in climate
         simulation. Basic arithmetic and comparison operators are also available.
-
 
 extra:
   recipe-maintainers:
