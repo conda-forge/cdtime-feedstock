@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/cdat/cdtime/archive/v{{ version }}.tar.gz
+  url: https://github.com/cdat/cdtime/archive/{{ version }}.tar.gz
   sha256: 121b9e855c3889d145bc9730d36403df6fd1b7677e99076556e763c3e53a59d5
 
 build:
