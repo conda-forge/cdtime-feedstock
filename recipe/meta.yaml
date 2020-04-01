@@ -41,9 +41,9 @@ test:
 
 about:
     home:  http://gitub.com/CDAT/cdtime
-    license: 'BSD-3-Clause'
-    license_file: 'bsd-3-clause.txt'
-    summary: 'Climate calendar manipulation tools'
+    license: BSD-3-Clause
+    license_file: bsd-3-clause.txt
+    summary: Climate calendar manipulation tools
     description: |
         The cdtime module contains functions for converting between
         these forms, based on the common calendars used in climate
