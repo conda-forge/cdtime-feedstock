@@ -22,6 +22,7 @@ requirements:
     - cython
     - libcdms
     - numpy
+    - libnetcdf
     - libnetcdf * nompi_*
     - cdat_info
     - libdrs_f
