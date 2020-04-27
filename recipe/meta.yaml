@@ -9,7 +9,7 @@ source:
   sha256: 121b9e855c3889d145bc9730d36403df6fd1b7677e99076556e763c3e53a59d5
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win]
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
     - cython
     - libcdms
     - numpy
-    - libnetcdf
+    - libnetcdf * nompi_*
     - cdat_info
     - libdrs_f
 
