@@ -3,7 +3,8 @@ c_compiler:
 c_compiler_version:
 - '7'
 channel_sources:
-- conda-forge,cdat_dev
+- conda-forge,defaults
+- conda-forge/label/cdat_dev
 channel_targets:
 - conda-forge cdat_dev
 docker_image:
