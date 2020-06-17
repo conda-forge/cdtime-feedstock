@@ -1,5 +1,8 @@
 channel_targets:
   - conda-forge cdat_dev
 channel_sources:
-  - conda-forge,cdat_dev
+  - conda-forge/label/cdat_dev
+  - conda-forge,defaults                        # [not (aarch64 or armv7l)]
+  - conda-forge                                 # [aarch64]
+  - conda-forge,c4armv7l,defaults               # [armv7l]
 
