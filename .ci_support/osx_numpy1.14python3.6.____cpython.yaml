@@ -5,7 +5,7 @@ c_compiler:
 c_compiler_version:
 - '9'
 channel_sources:
-- conda-forge/label/cdat_dev,conda-forge,default
+- conda-forge/label/cdat_dev,conda-forge,defaults
 channel_targets:
 - conda-forge cdat_dev
 fortran_compiler:
