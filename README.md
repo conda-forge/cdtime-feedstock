@@ -1,7 +1,7 @@
 About cdtime
 ============
 
-Home: http://gitub.com/CDAT/cdtime
+Home: http://github.com/CDAT/cdtime
 
 Package license: BSD-3-Clause
 

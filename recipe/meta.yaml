@@ -41,7 +41,7 @@ test:
     - cdtime
 
 about:
-    home:  http://gitub.com/CDAT/cdtime
+    home:  http://github.com/CDAT/cdtime
     license: BSD-3-Clause
     license_file: bsd-3-clause.txt
     summary: Climate calendar manipulation tools
