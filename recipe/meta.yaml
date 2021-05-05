@@ -7,6 +7,8 @@ package:
 source:
   url: https://github.com/cdat/cdtime/archive/v{{ version }}.tar.gz
   sha256: c22ec725e207994cec3d4ba5b5b35ede5ea698d552dc75e87cd86fa7dbc65b35
+  patches:
+    - 0001-fix_extension_config.patch
 
 build:
   number: 3
