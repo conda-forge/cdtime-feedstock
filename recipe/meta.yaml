@@ -11,13 +11,14 @@ source:
     - 0001-fix_extension_config.patch
 
 build:
-  number: 3
+  number: 4
   skip: True  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('fortran') }}
+    - make
   host:
     - python
     - setuptools
@@ -56,6 +57,5 @@ extra:
     - dnadeau4
     - doutriaux1
     - downiec
-    - muryanto1
     - jasonb5
     - xylar
