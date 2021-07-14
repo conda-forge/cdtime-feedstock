@@ -18,7 +18,21 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://travis-ci.com/conda-forge/cdtime-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/com/conda-forge/cdtime-feedstock/master.svg?label=macOS">
+      </a>
+    </td>
+  </tr><tr>
+    <td>Drone</td>
+    <td>
+      <a href="https://cloud.drone.io/conda-forge/cdtime-feedstock">
+        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/cdtime-feedstock/master.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -53,13 +67,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_numpy1.18python3.6.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.18python3.6.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_numpy1.19python3.7.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
@@ -71,6 +78,76 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_64_numpy1.19python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_numpy1.17python3.6.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_numpy1.17python3.6.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_numpy1.17python3.7.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_numpy1.17python3.7.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_numpy1.17python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_numpy1.17python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_numpy1.19python3.7.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_numpy1.19python3.7.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_numpy1.19python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_numpy1.19python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_numpy1.17python3.6.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_numpy1.17python3.6.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_numpy1.17python3.7.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_numpy1.17python3.7.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_numpy1.17python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_numpy1.17python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_numpy1.19python3.7.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_numpy1.19python3.7.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_numpy1.19python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_numpy1.19python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -95,13 +172,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_numpy1.18python3.6.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.18python3.6.____73_pypy" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_numpy1.19python3.7.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
@@ -113,6 +183,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=osx&configuration=osx_64_numpy1.19python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3810&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdtime-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
@@ -220,6 +304,5 @@ Feedstock Maintainers
 * [@doutriaux1](https://github.com/doutriaux1/)
 * [@downiec](https://github.com/downiec/)
 * [@jasonb5](https://github.com/jasonb5/)
-* [@muryanto1](https://github.com/muryanto1/)
 * [@xylar](https://github.com/xylar/)
 
