@@ -11,7 +11,7 @@ source:
     - 0001-fix_extension_config.patch
 
 build:
-  number: 4
+  number: 5
   skip: True  # [win]
 
 requirements:
@@ -28,6 +28,7 @@ requirements:
     - libnetcdf * nompi_*
     - cdat_info
     - libdrs_f
+    - jasper
 
   run:
     - python
@@ -37,6 +38,7 @@ requirements:
     - cdat_info
     - libdrs_f
     - {{ pin_compatible('numpy') }}
+    - jasper
 
 test:
   imports:
