@@ -26,8 +26,8 @@ requirements:
     - numpy
     - libnetcdf
     - libnetcdf * nompi_*
-    #- cdat_info
-    #- libdrs_f
+    - cdat_info
+    - libdrs_f
 
   run:
     - python
