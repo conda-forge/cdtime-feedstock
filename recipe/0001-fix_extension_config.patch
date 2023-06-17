@@ -20,6 +20,6 @@ index 86dd437..ba313d8 100644
 +              ['Src/cdtimemodule.c'],
 +              include_dirs=[sys.prefix+'/include'],
 +              library_dirs=[sys.prefix+'/lib'],
-+              libraries=['cdms', 'netcdf', 'grib2c', 'drs', 'png', 'jasper'],
++              libraries=['cdms', 'netcdf', 'g2c', 'png', 'jasper'],
 +        )
 +      ])
