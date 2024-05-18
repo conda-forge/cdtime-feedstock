@@ -11,12 +11,13 @@ source:
     - 0001-fix_extension_config.patch
 
 build:
-  number: 12
+  number: 13
   skip: True  # [win or py>=311]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('fortran') }}
   host:
     - python
@@ -35,7 +36,6 @@ requirements:
     - libcdms
     - libnetcdf
     - cdat_info
-    - {{ pin_compatible('numpy') }}
     - jasper
 
 test:
